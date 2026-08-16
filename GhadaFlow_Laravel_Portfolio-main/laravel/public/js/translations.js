@@ -1,7 +1,7 @@
 const translations = {
   en:{
     brandName:"GhadaFlow",brandNameAr:"GhadaFlow",
-    nav:{home:"Home",about:"About",experience:"Experience",projects:"Projects",certificates:"Certificates",skills:"Skills",contact:"Contact",email:"Email",linkedin:"LinkedIn",github:"GitHub",portfolio:"Portfolio"},
+    nav:{home:"Home",about:"About",experience:"Experience",projects:"Projects",certificates:"Certificates",skills:"Skills",contact:"Contact",email:"Email",linkedin:"LinkedIn",github:"GitHub"},
     hero:{eyebrow:"Web Developer",name:"Ghada Saleh Al-Towajri",title:"Web Developer",headline:"Web Developer focused on building modern web products and exploring AI-powered solutions.",location:"Buraidah, Saudi Arabia",email:"ghadacareer75@outlook.com"},
     sections:{
       about:{kicker:"About",title:"A developer focused on useful digital experiences."},
@@ -25,7 +25,7 @@ const translations = {
   },
   ar:{
     brandName:"غادة فلو",brandNameAr:"غادة فلو",
-    nav:{home:"الرئيسية",about:"نبذة عني",experience:"الخبرة",projects:"المشاريع",certificates:"الشهادات",skills:"المهارات",contact:"تواصل",email:"البريد الإلكتروني",linkedin:"LinkedIn",github:"GitHub",portfolio:"Portfolio"},
+    nav:{home:"الرئيسية",about:"نبذة عني",experience:"الخبرة",projects:"المشاريع",certificates:"الشهادات",skills:"المهارات",contact:"تواصل",email:"البريد الإلكتروني",linkedin:"LinkedIn",github:"GitHub"},
     hero:{eyebrow:"مطوّرة ويب",name:"غادة صالح التويجري",title:"مطوّرة ويب",headline:"مطوّرة ويب أركز على بناء منتجات ويب حديثة واستكشاف حلول تعتمد على الذكاء الاصطناعي.",location:"بريدة، المملكة العربية السعودية",email:"ghadacareer75@outlook.com"},
     sections:{
       about:{kicker:"نبذة عني",title:"مطوّرة تهتم ببناء تجارب رقمية عملية ومفيدة."},
