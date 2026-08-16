@@ -161,7 +161,7 @@ a {
 }
 
 .nav-menu {
-    display: flex !important;
+    display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 18px;
@@ -171,9 +171,8 @@ a {
 
 .nav-links,
 .nav-actions {
-    display: flex !important;
+    display: flex;
     align-items: center;
-    visibility: visible !important;
 }
 
 .nav-links {
@@ -219,12 +218,10 @@ a {
 }
 
 .nav-contact-link {
-    display: inline-flex !important;
+    display: inline-flex;
     align-items: center;
     padding: 8px 5px;
     white-space: nowrap;
-    visibility: visible !important;
-    opacity: 1 !important;
 }
 
 .nav-contact-link:hover {
