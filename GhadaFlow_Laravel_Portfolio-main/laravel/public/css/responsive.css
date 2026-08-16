@@ -27,9 +27,16 @@
   .section-heading{display:block}
   .section-number{display:block;margin-bottom:8px}
   .section-heading h2{font-size:2rem}
-  .nav-menu{display:none}
+  :root{--nav:112px}
+  .site-header{height:auto;padding-bottom:10px}
+  .navbar{flex-wrap:wrap;row-gap:8px}
+  .nav-menu{width:100%;flex:none;overflow-x:auto;-webkit-overflow-scrolling:touch;justify-content:flex-start;gap:10px}
+  .nav-links{gap:2px}
+  .nav-link{white-space:nowrap;padding:8px 10px;font-size:.72rem}
+  .nav-actions{gap:8px}
+  .nav-contact-link{display:inline-flex;white-space:nowrap}
   .mobile-menu-button{display:none}
-  .hero{min-height:auto;padding-bottom:70px}
+  .hero{padding-top:calc(var(--nav) + 20px);min-height:auto;padding-bottom:70px}
   .hero h1{font-size:clamp(2.9rem,14vw,4.8rem)}
   .hero h2{font-size:1.2rem}.hero-copy>p{font-size:.95rem}
   .hero-meta{gap:7px}.hero-meta span{font-size:.65rem}
