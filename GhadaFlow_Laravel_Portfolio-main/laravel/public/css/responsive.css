@@ -27,12 +27,8 @@
   .section-heading{display:block}
   .section-number{display:block;margin-bottom:8px}
   .section-heading h2{font-size:2rem}
-  .nav-menu{display:none;position:absolute;top:calc(100% + 8px);left:0;right:0;padding:12px;border:1px solid var(--line);border-radius:16px;background:rgba(13,16,23,.98);box-shadow:0 20px 60px rgba(0,0,0,.4)}
-  .nav-menu.open{display:block}
-  .nav-links{display:grid;gap:3px}.nav-link{display:block;width:100%;padding:12px}
-  .nav-actions{display:grid;grid-template-columns:1fr auto;gap:5px;margin-top:8px;padding-top:8px;border-top:1px solid var(--line)}
-  .nav-contact-link{display:block}
-  .mobile-menu-button{display:block}
+  .nav-menu{display:none}
+  .mobile-menu-button{display:none}
   .hero{min-height:auto;padding-bottom:70px}
   .hero h1{font-size:clamp(2.9rem,14vw,4.8rem)}
   .hero h2{font-size:1.2rem}.hero-copy>p{font-size:.95rem}
