@@ -37,7 +37,6 @@
 <a class="nav-contact-link" href="mailto:ghadacareer75@outlook.com" data-i18n="nav.email">Email</a>
 <a class="nav-contact-link" href="https://www.linkedin.com/in/ghada-saleh-altuwijri-9971a83a8/" target="_blank" rel="noopener noreferrer" data-i18n="nav.linkedin">LinkedIn</a>
 <a class="nav-contact-link" href="https://github.com/ghadacareer65-ui" target="_blank" rel="noopener noreferrer" data-i18n="nav.github">GitHub</a>
-<a class="nav-contact-link" href="https://dry-forest-003c.ghadacareer65.workers.dev/" target="_blank" rel="noopener noreferrer" data-i18n="nav.portfolio">Portfolio</a>
 <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><span id="themeIcon">&#9789;</span></button>
 <button class="language-toggle" id="languageToggle" aria-label="Change language"><span class="language-current" id="languageCurrent">AR</span></button>
 </div>
