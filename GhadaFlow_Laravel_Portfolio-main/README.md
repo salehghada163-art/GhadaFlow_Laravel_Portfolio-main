@@ -22,12 +22,11 @@ original design, content and assets.
 - **Projects** section with video demos and full project detail pages.
 - **Certificates** page, grouped by issuing organization, with clickable
   links.
-- Working **GitHub** and **LinkedIn** buttons in the top bar, plus a
-  clickable **email** link that opens Outlook Web's compose window
-  addressed to `ghadacareer75@outlook.com`.
+- Working **GitHub** and **LinkedIn** buttons, and a **Portfolio** link in
+  the top bar pointing to the live deployment.
 - A real **Contact Form** (name, email, subject, message) with Laravel
   server-side validation, success/error feedback, and email delivery via
-  Laravel Mail to `ghadacareer75@outlook.com`.
+  Laravel Mail.
 
 ## Technologies
 
@@ -92,27 +91,13 @@ Copy `.env.example` to `.env` and fill in real values locally (never commit
 
 - `APP_URL` — the URL the app is served from.
 - `MAIL_MAILER`, `MAIL_HOST`, `MAIL_PORT`, `MAIL_USERNAME`, `MAIL_PASSWORD`,
-  `MAIL_ENCRYPTION` — Outlook/Microsoft SMTP settings used to send Contact
-  Form messages: `smtp-mail.outlook.com`, port `587`, encryption `tls`,
-  username `ghadacareer75@outlook.com`, and an Outlook **App Password** as
-  `MAIL_PASSWORD` (never the real account password, and never committed —
-  `.env.example` only ships placeholders).
+  `MAIL_ENCRYPTION` — SMTP credentials used to send Contact Form messages
+  (an Outlook/Office365 account works with `smtp.office365.com`, port
+  `587`, encryption `tls`).
 - `MAIL_FROM_ADDRESS` / `MAIL_FROM_NAME` — the sender identity on outgoing
   mail.
-- `MAIL_CONTACT_TO` — the inbox that receives every submission:
-  `ghadacareer75@outlook.com`.
-
-## Contact & Email
-
-- **Portfolio email:** `ghadacareer75@outlook.com` — this is the only
-  address used anywhere in the project.
-- **Top-bar Email link** opens Outlook Web's compose window with the
-  recipient pre-filled (`https://outlook.live.com/mail/0/deeplink/compose?to=ghadacareer75%40outlook.com`),
-  falling back to a `mailto:ghadacareer75@outlook.com` link if the popup is
-  blocked.
-- **Contact Form** (`/contact`) is handled entirely by Laravel Mail/SMTP —
-  no JavaScript or third-party form service. Configure the Outlook SMTP
-  credentials above in `.env` for it to actually deliver mail.
+- `MAIL_CONTACT_TO` — the inbox that receives every submission (defaults to
+  `ghadacareer75@outlook.com`).
 
 ## Run Locally
 
