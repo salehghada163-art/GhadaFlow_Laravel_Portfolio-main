@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="@yield('description', 'GhadaFlow — Ghada Saleh Al-Towajri, Web Developer.')">
-<title>@yield('title', 'GhadaFlow | Web Developer')</title
+<title>@yield('title', 'GhadaFlow | Web Developer')</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
