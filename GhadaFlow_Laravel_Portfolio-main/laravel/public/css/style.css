@@ -43,6 +43,16 @@ body {
 
 body.rtl {
     font-family: "IBM Plex Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+    font-weight: 400;
+}
+
+body.rtl h1,
+body.rtl h2,
+body.rtl h3,
+body.rtl .brand,
+body.rtl .experience-status,
+body.rtl .nav-link {
+    font-weight: 600;
 }
 
 a {
@@ -1295,41 +1305,4 @@ html[dir="rtl"] .project-arrow {
 
 @media (prefers-reduced-motion: reduce) {
     html {
-        scroll-behavior: auto;
-    }
-
-    * {
-        transition-duration: .01ms !important;
-        animation-duration: .01ms !important;
-    }
-}
-
-
-/* =========================
-   PROJECT CARD FIX
-   ========================= */
-
-.project-card {
-    cursor: pointer;
-}
-
-.project-card:focus-visible {
-    outline: 2px solid var(--accent-light);
-    outline-offset: 4px;
-}
-
-.project-media {
-    position: relative;
-    z-index: 2;
-}
-
-.project-media video {
-    position: relative;
-    z-index: 5;
-    pointer-events: auto;
-}
-
-.project-body {
-    position: relative;
-    z-index: 1;
-}
+        scroll-behavior:
